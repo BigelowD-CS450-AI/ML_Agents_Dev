@@ -15,7 +15,8 @@ public class Move_To_Goal_Agent : Agent
     [SerializeField] private Material loseMaterial;
     public override void OnEpisodeBegin()
     {
-        transform.localPosition = Vector3.zero;
+        transform.localPosition = new Vector3(Random.Range(0f,2.5f),0f,Random.Range(0f,5f));
+        targetTransform.localPosition = new Vector3(Random.Range(0f,5f),0.5f,Random.Range(0f,5f));
     }
     public override void OnActionReceived(ActionBuffers actions)
     {

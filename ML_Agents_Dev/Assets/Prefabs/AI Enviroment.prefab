@@ -867,7 +867,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 1000
   targetTransform: {fileID: 4883354479698923446}
-  moveSpeed: 4
+  moveSpeed: 10
   floorMeshRenderer: {fileID: 715596838790727200}
   winMaterial: {fileID: 2100000, guid: fb00367000bf5514fbb8ba63ba0e6d17, type: 2}
   loseMaterial: {fileID: 2100000, guid: b8d00a6ad3b541043b3c1a591bec5271, type: 2}
