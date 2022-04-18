@@ -1225,6 +1225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AI Enviroment (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2156107137349254015, guid: 9d076be2454a22b4c815b02d58590296, type: 3}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3599069947864851947, guid: 9d076be2454a22b4c815b02d58590296, type: 3}
       propertyPath: m_RootOrder
       value: 2
